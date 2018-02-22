@@ -57,10 +57,35 @@
 HTML是Hyper Text Markup Language（超文本标记语言）的缩写；</br>
 大部分标记语言都有一个**开始标记**和**结束标记**：</br>
 比如：`<h1>hello,world!</h1>`中的`<h1>`和`</h1>`;
+```html
+<h1>hello,world</h1>
+```
 
 - [ ] 002
 #### Headline with the h2 Element
-to be continued,tommoral!
+`h`是英文`header`的缩写，标题无处不在，它的应用范围十分广泛：网站结构、写作文、PPT等。`h1`是主标题，`h2`是副标题，`h3`,`h4`,`h5`,`h6`依次递减字体的大小。
+```html
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+```
+- [ ] 003
+#### Inform with the Paragraph Element
+`p`是英文`paragraph`的缩写，经常被用来创建一个段落。
+```html
+<h1>Hello world</h1>
+<h2>我家的猫咪</h2>
+<p>Hello Paragraph</p>
+```
+- [ ] 004
+#### Uncomment HTML
+注释有两个功能：
+1. 想让一段代码不起作用，但是你又不想删除这一段代码的时候；
+2. 给代码加上一些说明，方便团队合作，或者日后自己查看；
+```html
+<!--
+<h1>Hello World</h1>
+-->
+```
 
 ## Responsive Design with Bootstrap
 ## Gear up for Success
