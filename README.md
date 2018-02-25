@@ -55,7 +55,7 @@
 - [ ] 001 
 #### Say Hello to HTML Element
 HTML是Hyper Text Markup Language（超文本标记语言）的缩写；</br>
-大部分标记语言都有一个**开始标记**和**结束标记**：</br>
+大部分标记语言都有一个**开始标记**和**/结束标记**：</br>
 比如：`<h1>hello,world!</h1>`中的`<h1>`和`</h1>`;
 ```html
 <h1>hello,world</h1>
@@ -84,6 +84,7 @@ HTML是Hyper Text Markup Language（超文本标记语言）的缩写；</br>
 ```html
 <!--
 <h1>Hello World</h1>
+<p>I am coming!</p>
 -->
 ```
 
