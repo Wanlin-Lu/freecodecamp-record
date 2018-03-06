@@ -87,6 +87,53 @@ HTML是Hyper Text Markup Language（超文本标记语言）的缩写；</br>
 <p>I am coming!</p>
 -->
 ```
+- [ ] 005
+#### Comment to HTML
+注释的`开始标记`是`<!--`、`结束标记`是`-->`;
+```html
+<!--
+<h1>Hello World</h1>
+-->
+<h2>我家的猫咪</h2>
+<!--
+<p>Hello Paragraph</p>
+-->
+```
+- [ ] 006
+#### Fill in the Blank with Placeholder Text
+Web开发者通常使用[lorem ipsum text](www.ruanyifeng.com/blog/2009/04/lorem_ipsum.html)来做占位符，占位符就是占着位置的一些文字，没有实际意义。
+```html
+<h1>西游记</h1>
+<h2>齐天大圣</h2>
+<h2>孙悟空</h2>
+<p>Monkey code</p>
+```
+- [] 007
+#### Delete HTML Element
+有时候我们需要删除一些不必要的元素。
+```html
+<h2>我家的猫咪</h2>
+<p>在大家的心中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱呢。</p>
+```
+- [ ] 008
+#### Change the Color of Text
+我们可以通过修改`<h2>`标签的`style(样式)`来改变这个标题的颜色。
+```html
+<h2 style="color:red">我家的猫咪</h2>
+<p>在大家的心中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱呢。</p>
+```
+- [ ] 009
+#### Use Css Selector to style Elements
+样式的属性有多达几千个，按照80-20原则，常用的也就几十个。<br>
+前面`008`中用的是`inline style(内嵌样式）`，这是一种为元素添加样式的最简单的方式；但是更易于维护的方式是使用`层叠样式表CSS`即`Cascading Style Sheets`。
+```html
+<style>
+    /*选择器{属性名称:属性值;}*/
+    h2{color:blue;}
+</style>
+<h2>我家的猫咪</h2>
+<p>在大家的心中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱呢。</p>
+```
 
 ## Responsive Design with Bootstrap
 ## Gear up for Success
