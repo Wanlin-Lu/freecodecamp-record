@@ -134,6 +134,40 @@ Web开发者通常使用[lorem ipsum text](www.ruanyifeng.com/blog/2009/04/lorem
 <h2>我家的猫咪</h2>
 <p>在大家的心中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱呢。</p>
 ```
+- [ ] 010
+#### Use a CSS Class to Style an Element
+给一个标签添加一个类选择器，并通过类选择器来改变该标签内容的样式；
+```html
+<style>
+    /*类选择器{属性名称:属性值;}*/
+    .blue-text{color:blue;}
+</style>
+<h2 class="blue-text">我家的猫咪</h2>
+<p>在大家的心中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱呢。</p>
+```
+- [ ] 011
+#### Style Multiple Elements with a CSS Class
+类选择器可以添加到多个标签中去，这样可以通过一个类选择器控制多个标签内容的样式；
+```html
+<style>
+    /*类选择器{属性名称:属性值;}*/
+    .blue-text{color:blue;}
+</style>
+<h2 class="blue-text">我家的猫咪</h2>
+<p class="blue-text">在大家的心中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱呢。</p>
+```
+- [ ] 012
+#### Change the Font Size of an Element
+字号是通过`font-size`属性来控制的。
+```html
+<style>
+  .red-text {color: red;}
+  p {font-size:16px;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<p class="red-text">在大家心目中...</p>
+<p>养动物有的时候...。</p>
+```
 
 ## Responsive Design with Bootstrap
 ## Gear up for Success
