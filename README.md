@@ -108,7 +108,7 @@ Web开发者通常使用[lorem ipsum text](www.ruanyifeng.com/blog/2009/04/lorem
 <h2>孙悟空</h2>
 <p>Monkey code</p>
 ```
-- [] 007
+- [ ] 007
 #### Delete HTML Element
 有时候我们需要删除一些不必要的元素。
 ```html
@@ -167,6 +167,117 @@ Web开发者通常使用[lorem ipsum text](www.ruanyifeng.com/blog/2009/04/lorem
 <h2 class="red-text">我家的猫咪</h2>
 <p class="red-text">在大家心目中...</p>
 <p>养动物有的时候...。</p>
+```
+- [ ] 013
+#### Set the Font Family of an Element
+使用`font-family`，来设置元素字体。例如:`h1{font-family:Sans-serif;}`
+```html
+<style>
+  .red-text {color: red;}
+  p {font-size:16px;font-family:Monospace;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<p class="red-text">在大家心目中...</p>
+<p>养动物有的时候...。</p>
+```
+- [ ] 014
+#### Import a Google Font
+除了常用字体之外，我们还可以引入一些特殊字体。比如用`link`引入`Lobster`字体，然后应用到`h2`标题上。
+```html
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    h2{font-family:Lobster;}
+  .red-text {color: red;}
+  p {font-size:16px;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<p class="red-text">在大家心目中...</p>
+<p>养动物有的时候...。</p>
+```
+- [ ] 015
+#### Specify How Fonts Should Degrade
+浏览器都有几种默认的字体，包括`Serif`,`Sans-Serif`,`Monospace`等。而你可以设置自己喜欢的字体，当你设置的字体不可用的时候，浏览器会自动降级到另一种字体。
+```html
+<!--<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">-->
+<style>
+    h2{font-family:Lobster;}
+  .red-text {color: red;}
+  p {font-size:16px;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<p class="red-text">在大家心目中...</p>
+<p>养动物有的时候...。</p>
+```
+- [ ] 016
+#### Add Images to your Website
+使用`img`标签来为你的网站添加图片
+```html
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {color: red;}
+  h2 {font-family: Lobster, Monospace;}
+  p {font-size: 16px;font-family: Monospace;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<img src="/images/relaxing-cat.jpg">
+<p class="red-text">猫咪猫咪我就喜欢你</p>
+```
+- [ ] 017
+#### Size your Images
+使用`width`来改变图片的大小为100px。
+```html
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {color: red;}
+  h2 {font-family: Lobster, Monospace;}
+  p {font-size: 16px;font-family: Monospace;}
+  .smaller-image{width:100px;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<img class="smaller-image" src="/images/relaxing-cat.jpg">
+<p class="red-text">猫咪猫咪我就喜欢你</p>
+```
+- [ ] 018
+#### Add Borders Around your Elements
+CSS的边框属性有Style、color、width、height等。任务：创建一个叫thick-green-border的class，让它的边框宽度为10像素、边框样式为solid(固体)、边框颜色为绿色(green)，然后把这个class应用到你的猫咪照片上。
+```html
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {color: red;}
+  h2 {font-family: Lobster, Monospace;}
+  p {font-size: 16px;font-family: Monospace;}
+  .smaller-image{width:100px;}
+  .thick-green-border{border-color:green;border-width:10px;border-style:solid;}
+</style>
+<h2 class="red-text">我家的猫咪</h2>
+<img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg">
+<p class="red-text">猫咪猫咪我就喜欢你</p>
+```
+- [ ] 019
+#### Add Rounded Corners with a Border Radius
+使用`border-radius`来使边框圆滑；
+```html
+<style>
+    thick-green-border{
+        border-color:green;
+        border-width:10px;
+        border-style:solid;
+        border-radius:10px;
+<style>
+<img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg">
+```
+- [ ] 020
+#### Make Circular Images with a Border Radius
+使用`border-radius`配合`百分比`来得到特殊效果；
+```html
+<style>
+    thick-green-border{
+        border-color:green;
+        border-width:10px;
+        border-style:solid;
+        border-radius: 50%;
+<style>
+<img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg">
 ```
 
 ## Responsive Design with Bootstrap
