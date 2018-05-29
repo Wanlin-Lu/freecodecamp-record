@@ -279,6 +279,107 @@ CSS的边框属性有Style、color、width、height等。任务：创建一个�
 <style>
 <img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg">
 ```
+- [ ] 021
+#### Link to External Pages with Anchor Elements
+`a`元素，也叫`anchor`（锚点）元素，既可以用来链接到外部地址实现页面跳转功能，也可以链接到当前页面的某部分实现内部导航功能。
+```html
+<a href="http://freecatphotoapp.com">cat photos</a>
+```
+- [ ] 022
+#### Nest an Anchor Element within a Paragraph
+`a`元素嵌套进其他元素中的用法：
+```html
+<!-- 请只修改这条注释以下的代码 -->
+<p>View more<a href="http://www.freecatphotoapp.com"> cat photos</a></p>
+<!-- 请只修改这条注释以上的代码 -->
+```
+- [ ] 023
+#### Make Dead Links using the Hash Symbol
+暂时不确定的连接
+```html
+<p>Click here for <a href="#">cat photos</a>.</p>
+```
+- [ ] 024
+#### Turn an Image into a Link
+把其他元素嵌套进`a`标签中，形成连接；
+```html
+<a href="#"><img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg"></a>
+```
+- [ ] 025
+#### Add Alt Text to an Image for Accessibility
+为图片添加`alt`属性；
+```html
+<a href="#"><img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
+```
+- [ ] 026
+#### Create a Bulleted Unordered List
+创建无序列表`unordered lists`;
+```html
+<ul>
+  <li>eat</li>
+  <li>sleeping</li>
+  <li>play</li>
+</ul>
+```
+- [ ] 027
+#### Create an Ordered List
+创建有序列表`ordered lists`;
+```html
+<ol>
+  <li>snack</li>
+  <li>mud</li>
+  <li>water</li>
+</ol>
+```
+- [ ] 028
+#### Create a Text Field
+创建文本框`input`
+```html
+<input type="text">
+```
+- [ ] 029
+#### Add Placeholder Text to a Text Field
+为`input`添加站字符`placeholder`;
+```html
+<input type="text" placeholder="cat photo URL">
+```
+- [ ] 030
+#### Create a Form Element
+用HTML建构可以和服务器交互的Web表单`form`,通过给`form`添加一个`action`来达到这个目的。
+```html
+<form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL">
+</form>
+```
+- [ ] 031
+#### Add a Submit Button to a Form
+添加提交按钮
+```html
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL">
+  <button type="submit">Submit</button>
+</form>
+```
+- [ ] 032
+#### Use HTML5 to Require a Field
+为必填项添加`required`属性;
+```html
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+- [ ] 033
+#### Create a Set of Radio Buttons
+创建单选按钮`radio button`;
+```html
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+  <label><input type="radio" name="indoor-outdoor" value="indoor">indoor</label>
+  <label><input type="radio" name="indoor-outdoor" value="outdoor">outdoor</label>
+</form>
+```
 
 ## Responsive Design with Bootstrap
 ## Gear up for Success
