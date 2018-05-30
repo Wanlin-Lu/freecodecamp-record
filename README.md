@@ -380,6 +380,91 @@ CSS的边框属性有Style、color、width、height等。任务：创建一个�
   <label><input type="radio" name="indoor-outdoor" value="outdoor">outdoor</label>
 </form>
 ```
+- [ ] 034
+#### Create a Set of Checkboxes
+复选按钮`checkboxes`;
+```html
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+  <label><input type="checkbox" name="personality" value="1"></label>
+  <label><input type="checkbox" name="personality" value="2"></label>
+  <label><input type="checkbox" name="personality" value="3"></label>
+</form>
+```
+- [ ] 035
+#### Check Radio Buttons and Checkboxes by Default
+默认的选项`checked`;
+```html
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality" checked> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+- [ ] 036
+#### Nest Many Elements within a Single Div Element
+用`div`也就是`division`来嵌套其他元素；
+```html
+<div>
+<p>Things cats love:</p>
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+</div>
+```
+- [ ] 037
+#### Give a Background Color to a div Element
+`background-color`背景颜色；
+```html
+ .gray-background{background-color:gray;}
+ 
+ <div class="gray-background">
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+</div>
+```
+- [ ] 038
+#### set the ID of an Element
+`id`属性--唯一标记；
+
+- [ ] 039
+#### Use an ID Attribute to Style an Element
+```html
+#cat-photo-form{
+    background-color:green;
+  }
+ 
+ <form action="/submit-cat-photo" id="cat-photo-form">
+</form> 
+```
+- [ ] 040
+#### Adjusting the Padding of an Element
+padding(内边距)、margin(外边距)、border(边框)。
 
 ## Responsive Design with Bootstrap
 ## Gear up for Success
