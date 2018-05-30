@@ -451,6 +451,10 @@ CSS的边框属性有Style、color、width、height等。任务：创建一个�
 - [ ] 038
 #### set the ID of an Element
 `id`属性--唯一标记；
+```html
+ <form action="/submit-cat-photo" id="cat-photo-form">
+</form> 
+```
 
 - [ ] 039
 #### Use an ID Attribute to Style an Element
@@ -464,8 +468,291 @@ CSS的边框属性有Style、color、width、height等。任务：创建一个�
 ```
 - [ ] 040
 #### Adjusting the Padding of an Element
-padding(内边距)、margin(外边距)、border(边框)。
+`padding`(内边距);
+```html
+.green-box {
+    background-color: green;
+    padding: 20px;
+  }
+```
+- [ ] 041
+#### Adjust the Margin of an Element
+`margin`(外边距);`border`(边框);
+```html
+.green-box {
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+}
+```
+- [ ] 042
+#### Add an Negative Margin to an Element
+负边距；
+```html
+  .green-box {
+    background-color: green;
+    padding: 20px;
+    margin: -15px;
+  }
+```
+- [ ] 043
+#### Add Different Padding to Each Side of an Element
+CSS 允许你使用 `padding-top`、`padding-righ`t、`padding-bottom` 和 `padding-left`来控制元素上右下左四个方向的 padding。
+```html
+  .green-box {
+    background-color: green;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+```
+- [ ] 044
+#### Add Different Margin to Each Side of an Element
+CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom` 和 `margin-left` 来控制元素上右下左四个方向的 margin。
+```html
+  .green-box {
+    background-color: green;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+```
+- [ ] 045
+#### Use Clockwise Notation to Specify thePadding of an Element
+`padding: 10px 20px 10px 20px;`这四个值以顺时针方式排列：顶部、右侧、底部、左侧，简称：上右下左
+```html
+  .green-box {
+    background-color: green;
+    padding: 40px 20px 20px 40px;
+  }
+```
+- [ ] 046
+#### Use Clockwise Notation to Specify the Margin of an Element
+`margin: 10px 20px 10px 20px;`这四个值以顺时针方式排列：顶部、右侧、底部、左侧，简称：上右下左
+```html
+  .green-box {
+    background-color: green;
+    margin: 40px 20px 20px 40px;
+  }
+```
+- [ ] 047
+#### Style the HTML Body Element
+通过将其 `background-color` 设置为黑色，我们可以证明 body 元素的存在。
+```html
+<style>
+  body{background-color: black;}
+</style>
+```
+- [ ] 048
+#### Inherit Styles from the Body Element
+属性继承；
+```html
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: Monospace;
+  }
+
+</style>
+<h1>Hello World</h1>
+```
+- [ ] 049
+#### Prioritize One Style Over Another
+属性覆盖；`override`
+```html
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text{
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
+```
+- [ ] 050
+#### Override Styles in Subsequent CSS
+属性覆盖，后面的类声明覆盖前面的；
+```html
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+```
+- [ ] 051
+#### Override Class Declarations By Styling ID Attributes
+用ID声明属性，覆盖类声明属性；
+```html
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text {
+    color: orange;
+  }
+</style>
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+```
+- [ ] 052
+#### Override Class Declarations with Inline Styles
+行内样式覆盖；
+```html
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color:white">Hello World!</h1>
+```
+- [ ] 053
+#### Override All Other Styles by using Important
+当你需要确保某元素具有指定的 CSS 时，你可以使用 `!important`。
+```html
+  .pink-text {
+    color: pink !important;
+  }
+```
+- [ ] 054
+#### Use Hex Code for Specific Colors
+其中的一种方法称作 `hexadecimal code`（十六进制编码），简写为 `hex code`。
+```html
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
+```
+- [ ] 055
+#### Use Hex code to color Elements White
+让我们通过把 `background-colo`r 的 hex code 修改为 `#FFFFFF`，以把 body 元素的背景改为白色。
+```html
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+</style>
+```
+- [ ] 056
+#### Use Hex Code to Color Elements Red
+`Hex code` 遵循 `red-green-blue`（红-绿-蓝），或者叫 rgb 格式。hex code 中的前两位表示颜色中红色的数量，第三四位代表绿色的数量，第五六位代表蓝色的数量。
+```html
+<style>
+  body {
+    background-color: #FF0000;
+  }
+</style>
+```
+- [ ] 057
+#### Use Hex Code to Color Elements Green
+通过对 background-color 应用 hex code 值 `#00FF00` 以把 body 元素的背景色设置为绿色。
+```html
+<style>
+  body {
+    background-color: #00FF00;
+  }
+</style>
+```
+- [ ] 058
+#### Use Hex Code to Color Elements Blue
+通过对 `background-color` 应用 hex code 值 `#0000FF` 以把 body 元素的背景色设置为蓝色。
+```html
+<style>
+  body {
+    background-color: #0000FF;
+  }
+</style>
+```
+- [ ] 059
+#### Use Hex Code to Mix Colors
+通过对 background-color 应用 hex code 值 `#FFA500` 以把 body 元素的背景色设置为橙色。
+```html
+<style>
+  body {
+    background-color: #FFA500;
+  }
+</style>
+```
+- [ ] 060
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
 
 ## Responsive Design with Bootstrap
+
+- [ ]
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
+- [ ]
+#### 
+```html
+
+```
 ## Gear up for Success
 ## jQuery
