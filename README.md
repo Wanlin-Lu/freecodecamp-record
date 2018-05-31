@@ -707,52 +707,99 @@ CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom` 和 `margin-
 </style>
 ```
 - [ ] 060
-#### 
+####  Use Hex Code to Color ElmentsGray
 ```html
-
+<style>
+  body {
+    background-color: #808080;
+  }
+</style>
 ```
-- [ ]
-#### 
+- [ ] 061
+#### Use Hex Code for Specific Shades of Gray
+深灰色；
 ```html
-
+<style>
+  body {
+    background-color: #111111;
+  }
+</style>
 ```
-- [ ]
-#### 
+- [ ] 062
+#### Use Abbreviated Hex Code
+例如，红，hex code 是 `#FF0000` ，可被缩写成 `#F00`。也就是说，一位表示红，一位表示绿，一位表示蓝。
 ```html
-
+<style>
+  body {
+    background-color: #F00;
+  }
+</style>
 ```
-- [ ]
-#### 
+- [ ] 063
+#### Use RGB values to Color Elements
+使用 rgb，你通过 0 至 255 之间的一个数字来指定每种颜色的亮度，而不是像 hex code 那样使用六个十六进制数字。
 ```html
-
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
 ```
-- [ ]
-#### 
+- [ ] 064
+#### Use RGB to Color Elements White
 ```html
-
+<style>
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+</style>
 ```
-- [ ]
-#### 
+- [ ] 065
+#### Use RGB to Color Elements Red
 ```html
-
+<style>
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+</style>
 ```
-
+- [ ] 066
+#### Use RGB to Color Elements Green
+```html
+<style>
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+</style>
+```
+- [ ] 067
+#### Use RGB to Color Elements Blue
+```html
+<style>
+  body {
+    background-color: rgb(0, 0, 255);
+  }
+</style>
+```
+- [ ] 068
+#### Use RGB to Mix Colors
+```html
+<style>
+  body {
+    background-color: rgb(255, 165, 0);
+  }
+</style>
+```
 ## Responsive Design with Bootstrap
+* 添加Bootstrap：`<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/>`
+* 给HTML内容加上：`<div class="container-fluid"></div>`
+* 响应式图片：`<img class="img-responsive" src="/images/running-cat.jpg">`
+* 文字响应式居中：`<h2 class="red-text text-center">CatPhotoApp</h2>`
+* bootstrap button：`<button class="btn">Like</button>`
+* 块级按钮：`<button class="btn btn-block">Like</button>`
+* 深蓝色按钮：`<button class="btn btn-block btn-primary">Like</button>`
+* 浅蓝色(可操作)按钮：`<button class="btn btn-block btn-info">Info</button>`
+* 红色（破坏性）按钮：`<button class="btn btn-block btn-danger">Delete</button>`
 
-- [ ]
-#### 
-```html
-
-```
-- [ ]
-#### 
-```html
-
-```
-- [ ]
-#### 
-```html
-
-```
 ## Gear up for Success
 ## jQuery
