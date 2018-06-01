@@ -800,6 +800,16 @@ CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom` 和 `margin-
 * 深蓝色按钮：`<button class="btn btn-block btn-primary">Like</button>`
 * 浅蓝色(可操作)按钮：`<button class="btn btn-block btn-info">Info</button>`
 * 红色（破坏性）按钮：`<button class="btn btn-block btn-danger">Delete</button>`
+* 行内动态12网格：`<div class="row"><div class="col-xs-4"></div><div class="col-xs-8"></div></div>`
+* 深蓝色文字：`<h2 class="text-primary text-center">CatPhotoApp</h2>`
+* 部分文字设置样式：`<p>Things cats <span class="text-danger">love</span>:</p>`
+* Font Awesome图标库：`<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>`
+* Font Awesome图标使用：`<i class="fa fa-thumbs-up"></i>`,`<i class="fa fa-info-circle"></i>`
+* 给'radio'使用格栅系统：`<div class="row"><div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Indoor</label></div><div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Outdoor</label></div></div>`
+* 给‘CheckBox’使用格栅系统：`<div class="row"><div class="col-xs-4"><label><input type="checkbox" name="personality"> Loving</label></div>....</div>`
+* 表单输入框：`<input class="form-control" type="text" placeholder="cat photo URL" required>`
+* 提交按钮：`<button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i> Submit</button>`
+
 
 ## Gear up for Success
 ## jQuery
