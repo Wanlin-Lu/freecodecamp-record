@@ -933,8 +933,22 @@ CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom` 和 `margin-
 * 自我激励！
 
 ## jQuery
-* script代码：`<script>$(document).ready(function(){});</script>`
-* 
+* DOcument ready function代码：`<script>$(document).ready(function(){...});</script>`
+* 给按钮加动画：`$("button").addClass("animated bounce");`
+* 通过ClassName加动画：`$(".well").addClass("animated shake");`
+* 通过IDName加动画：`$("#target3").addClass("animated fadeOut");`
+* 同节点附加动画效果：`$("button").addClass("animated");$(".btn").addClass("shake");$("#target1").addClass("btn-primary");`
+* 移除className：`$("button").removeClass("btn-default");`
+* 操作CSS：`$("#target1").css("color","red");`
+* 修改属性：`$("#target1").prop("disabled",true);`
+* 替换文字内容：`$("#target2").text("replace text");`
+* 替换节点内容和标记本身：`$("#target4").html("<em>#target4</em>");`
+* 删除元素：`$("#target4").remove();`
+* 移动元素：`$("#target2").appendTo("#right-well");`
+* 方法链-克隆移动：`$("#target5").clone().appendTo("#left-well");`
+* 方法链-父元素CSS操作：`$("#target1").parent().css("background-color","red");`
+* 方法链-子元素CSS操作：`$("#right-well").children().css("color","orange");`
+* 选择指定的子元素：`$(".target:nth-child(2)").addClass("animated bounce");`
 
 
 
