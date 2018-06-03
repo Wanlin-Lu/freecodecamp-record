@@ -949,6 +949,31 @@ CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom` 和 `margin-
 * 方法链-父元素CSS操作：`$("#target1").parent().css("background-color","red");`
 * 方法链-子元素CSS操作：`$("#right-well").children().css("color","orange");`
 * 选择指定的子元素：`$(".target:nth-child(2)").addClass("animated bounce");`
+* 指定索引为偶数的元素：`$(".target:even").addClass("animated shake");`
+* 指定索引为奇数的元素：`$(".target:odd").addClass("animated fadeout");`
+* 整页掉落！屌炸天呀！：`$("body").addClass("animated hinge");`
+
+## 5 Basic Front End Development Projects
+* 注册Codepen：username，password；
+* 基本操作：create a pen; add bootstrap;
+
+### 5.1 项目一：`build a tribute page`
+* 引入logo字体：`<link href="//fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">`
+* 项目完成地址：`https://codepen.io/Adom-Lu/pen/NaNVbB`
+
+### 5.2 项目二：`build a personal portfolio webpage`
+### 5.3 项目三：`design a danmu app`
+
+## 6 Basic Javascript
+## 7 Object Oriented and Functional Programming
+## 8 Basic Algorithm Scripting
+## 9 JSON APIs and Ajax
+## 10 Intermediate Front End Develoment Project
+## 11 Intermediate Algorithm Scritp
+## 12 Advanced Algorithm Script
+## 13 Advanced Front End Development Progects
+## 14 Claim Your Front End Development Certificate
+
 
 
 
