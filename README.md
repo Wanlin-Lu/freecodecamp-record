@@ -962,6 +962,12 @@ CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom` 和 `margin-
 * 项目完成地址：`https://codepen.io/Adom-Lu/pen/NaNVbB`
 
 ### 5.2 项目二：`build a personal portfolio webpage`
+* 网页草划：见幕布-网站规划项；
+* 网页框架：按照草划方案搭建网页主干；
+* 主要内容填充：按照要求，填充主要内容；
+* 功能实现：实现作业要求的各项功能；
+* 网页优化：配色、样式；
+
 ### 5.3 项目三：`design a danmu app`
 
 ## 6 Basic Javascript
